@@ -8,7 +8,7 @@ $client = new \Vonage\Client($basic);
 define('BRAND_NAME','Oryza technologies');
 
 $response = $client->sms()->send(
-    new \Vonage\SMS\Message\SMS("94774772184", BRAND_NAME, 'A text message sent using the Nexmo SMS API')
+    new \Vonage\SMS\Message\SMS("94771234564", BRAND_NAME, 'A text message sent using the Nexmo SMS API')
 );
 
 $message = $response->current();
