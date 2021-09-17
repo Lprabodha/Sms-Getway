@@ -2,7 +2,7 @@
 
 require_once 'vendor/autoload.php';
 
-$basic  = new \Vonage\Client\Credentials\Basic("5d1aec98", "Rw0BHbjDdyI5J6SW");
+$basic  = new \Vonage\Client\Credentials\Basic("5d1hhh3", "144ndndndnndd");
 $client = new \Vonage\Client($basic);
 
 define('BRAND_NAME','Oryza technologies');
